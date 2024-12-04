@@ -156,6 +156,22 @@ export const bedrockModels = {
 		inputPrice: 0.25,
 		outputPrice: 1.25,
 	},
+	"amazon.nova-pro-v1:0": {
+		maxTokens: 4096,
+		contextWindow: 300_000,
+		supportsImages: true,
+		supportsPromptCache: false,
+		inputPrice: 0.8,
+		outputPrice: 3.2,
+	},
+	"amazon.nova-lite-v1:0": {
+		maxTokens: 4096,
+		contextWindow: 300_000,
+		supportsImages: true,
+		supportsPromptCache: false,
+		inputPrice: 0.06,
+		outputPrice: 0.24,
+	},		
 } as const satisfies Record<string, ModelInfo>
 
 // OpenRouter
