@@ -1,6 +1,6 @@
 {
-	"name": "claude-dev",
-	"displayName": "Cline (prev. Claude Dev)",
+	"name": "claude-dev-custom",
+	"displayName": "Cline (prev. Claude Dev) - Custom with Nova",
 	"description": "Autonomous coding agent right in your IDE, capable of creating/editing files, running commands, using the browser, and more with your permission every step of the way.",
 	"version": "2.1.6",
 	"icon": "assets/icons/icon.png",
